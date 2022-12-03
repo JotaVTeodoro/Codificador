@@ -1,0 +1,202 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    color: white;
+    background: black;
+    font-family: "Inconsolata", monospace;
+}
+
+main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+
+    display: block;
+}
+
+h1{
+
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: aqua;
+    margin-bottom: 50px;
+}
+
+
+#mensagem{
+    
+    background-color: rgb(206, 202, 202);
+    box-shadow: black;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 20px;
+    margin-left: 8%;
+}
+
+textarea{
+
+    background-color: rgb(206, 202, 202);
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 8%;
+}
+
+select{
+
+    margin-left: 33%;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+select option {
+    background: rgb(206, 202, 202);
+    color: black;
+  }
+
+  .radio{
+
+    display: flex;
+    gap: 5px;
+    color:aqua;
+    place-items: center;
+ }
+
+.radio-button{
+
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-left: auto;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+
+button{
+
+    display: inline-block;
+    background-color: rgb(206, 202, 202);
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 20px;
+    width: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.mensagem{
+
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.slider-range{
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: 40px;
+    height: 15px;
+    background-color: rgb(206, 202, 202);
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 3px black;
+    color: black;
+    outline: none;
+  }
+
+  .chave{
+
+    text-align: center;
+    margin-bottom: 10px;
+    color: aqua;
+  }
+/*     testar com JS                    */
+  .chave-container{   
+
+    display: none;
+  }
+
+.range{
+
+    height: 10px;
+    background-color: black;
+    outline: none;
+    cursor: ew-resize;
+    border-radius: 5px;
+    
+}
+
+.social{
+
+    display: flex;
+    place-content: center;
+    gap: 20px;
+    
+}
+
+/* ajusta as imagens */
+footer img{  
+    
+    width: 60px;
+    height: 50px;
+
+}
+
+/* coloca uma imagem do lado da outra e centraliza elas */
+footer{  
+
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+/* coloca um espaçamento entre as imagens no rodape e centraliza */
+footer a{  
+
+  margin: 20px;
+  text-align: center;
+}
+
+/* aproxima as frases nas imagens no rodape */
+footer p{   
+
+  margin-top: 2px;
+  color: aqua;
+}
+
+
